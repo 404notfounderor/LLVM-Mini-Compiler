@@ -1,0 +1,11 @@
+x = 2 + 3;
+y = x + 4;
+
+if (0)
+x = 100;   // should be eliminated
+
+if (y > 5)
+x = x + 1;
+
+while (x < 3)
+x = x + 1;
