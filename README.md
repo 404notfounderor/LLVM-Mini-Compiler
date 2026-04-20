@@ -49,25 +49,24 @@ Pipeline:
 
 ## Project Structure
 llvm-compiler/
-│── include/
-│ ├── lexer.h
-│ ├── parser.h
-│ ├── ast.h
-│ └── codegen.h
+├── include/
+│   ├── lexer.h
+│   ├── parser.h
+│   ├── ast.h
+│   └── codegen.h
 │
-│── src/
-│ ├── lexer.cpp
-│ ├── parser.cpp
-│ ├── ast.cpp
-│ ├── codegen.cpp
-│ └── main.cpp
+├── src/
+│   ├── lexer.cpp
+│   ├── parser.cpp
+│   ├── ast.cpp
+│   ├── codegen.cpp
+│   └── main.cpp
 │
-│── test/
-│ └── input.toy
+├── test/
+│   └── input.toy
 │
-│── CMakeLists.txt
-│── README.md
-
+├── CMakeLists.txt
+└── README.md
 ---
 
 ## Example Input
